@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun openWhatsApp() {
-        val smsNumber = "918860270019" // E164 format without '+' sign
+        val smsNumber = "919910830309" // E164 format without '+' sign
         val sendIntent = Intent(Intent.ACTION_SEND  )
         sendIntent.type = "text/plain"
         sendIntent.putExtra(Intent.EXTRA_TEXT, "This is my text to send.")
